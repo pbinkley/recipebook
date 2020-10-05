@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_007.json",
+  "label": "Page 7",
+  "width": 1688,
+  "height": 3092,
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_007/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_007.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_007/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_007",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 1688,
+        "height": 3092
+      },
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_007.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

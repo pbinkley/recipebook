@@ -1,0 +1,835 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/recipebook/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Recipes collected for Mildred by William, from the Northumberland American and other newspapers and sources",
+  "metadata": [
+    {
+      "label": "artist",
+      "value": "William McCoy Wheatley, Mildred Humes Wheatley"
+    },
+    {
+      "label": "location",
+      "value": "Northumberland, Pennsylvania"
+    },
+    {
+      "label": "_date",
+      "value": "c.1859"
+    },
+    {
+      "label": "object_type",
+      "value": "manuscript"
+    },
+    {
+      "label": "current_location",
+      "value": "Wheatley Williams Papers"
+    },
+    {
+      "label": "source",
+      "value": "none"
+    },
+    {
+      "label": "collection",
+      "value": "recipebook"
+    }
+  ],
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_001/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/recipebook_001.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_001.json",
+          "label": "Page 1",
+          "width": 2055,
+          "height": 3065,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_001/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_001.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_001/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_001",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2055,
+                "height": 3065
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_001.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json",
+          "label": "Page 2",
+          "width": 1723,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_002/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_002.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_002/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_002",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1723,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_003.json",
+          "label": "Page 3",
+          "width": 1688,
+          "height": 3092,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_003/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_003.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_003/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_003",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1688,
+                "height": 3092
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_003.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_004.json",
+          "label": "Page 4",
+          "width": 1723,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_004/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_004.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_004/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_004",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1723,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_004.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_005.json",
+          "label": "Page 5",
+          "width": 1688,
+          "height": 3092,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_005/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_005.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_005/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_005",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1688,
+                "height": 3092
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_005.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_006.json",
+          "label": "Page 6",
+          "width": 1723,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_006/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_006.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_006/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_006",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1723,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_006.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_007.json",
+          "label": "Page 7",
+          "width": 1688,
+          "height": 3092,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_007/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_007.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_007/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_007",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1688,
+                "height": 3092
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_007.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_008.json",
+          "label": "Page 8",
+          "width": 1723,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_008/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_008.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_008/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_008",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1723,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_008.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_009.json",
+          "label": "Page 9",
+          "width": 1688,
+          "height": 3173,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_009/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_009.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_009/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_009",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1688,
+                "height": 3173
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_009.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_010.json",
+          "label": "Page 10",
+          "width": 1708,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_010/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_010.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_010/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_010",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1708,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_010.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_011.json",
+          "label": "Page 11",
+          "width": 1688,
+          "height": 3092,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_011/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_011.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_011/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_011",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1688,
+                "height": 3092
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_011.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_012.json",
+          "label": "Page 12",
+          "width": 1723,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_012/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_012.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_012/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_012",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1723,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_012.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_013.json",
+          "label": "Page 13",
+          "width": 1688,
+          "height": 3092,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_013/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_013.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_013/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_013",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1688,
+                "height": 3092
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_013.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_014.json",
+          "label": "Page 14",
+          "width": 1723,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_014/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_014.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_014/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_014",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1723,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_014.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_015.json",
+          "label": "Page 15",
+          "width": 1688,
+          "height": 3092,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_015/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_015.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_015/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_015",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1688,
+                "height": 3092
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_015.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_016.json",
+          "label": "Page 16",
+          "width": 1723,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_016/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_016.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_016/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_016",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1723,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_016.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_017.json",
+          "label": "Page 17",
+          "width": 1688,
+          "height": 3092,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_017/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_017.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_017/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_017",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1688,
+                "height": 3092
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_017.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_018.json",
+          "label": "Page 18",
+          "width": 1723,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_018/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_018.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_018/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_018",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1723,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_018.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_019.json",
+          "label": "Page 19",
+          "width": 1688,
+          "height": 3092,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_019/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_019.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_019/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_019",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1688,
+                "height": 3092
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_019.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_020.json",
+          "label": "Page 20",
+          "width": 1723,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_020/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_020.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_020/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_020",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1723,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_020.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_021.json",
+          "label": "Page 21",
+          "width": 1758,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_021/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_021.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_021/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_021",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1758,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_021.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_022.json",
+          "label": "Page 22",
+          "width": 1751,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_022/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_022.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_022/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_022",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1751,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_022.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_023.json",
+          "label": "Page 23",
+          "width": 1688,
+          "height": 3092,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_023/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_023.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_023/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_023",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1688,
+                "height": 3092
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_023.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_024.json",
+          "label": "Page 24",
+          "width": 1723,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_024/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_024.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_024/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_024",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1723,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_024.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_025.json",
+          "label": "Page 25",
+          "width": 1688,
+          "height": 3092,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_025/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_025.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_025/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_025",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1688,
+                "height": 3092
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_025.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_026.json",
+          "label": "Page 26",
+          "width": 1723,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_026/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_026.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_026/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_026",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1723,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_026.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_027.json",
+          "label": "Page 27",
+          "width": 1688,
+          "height": 3092,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_027/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_027.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_027/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_027",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1688,
+                "height": 3092
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_027.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_028.json",
+          "label": "Page 28",
+          "width": 2122,
+          "height": 3179,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_028/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_028.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_028/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_028",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2122,
+                "height": 3179
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_028.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_001/full/full/0/default.jpg"
+}

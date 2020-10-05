@@ -1,0 +1,5 @@
+---
+layout: none
+---
+
+{"@context":"http://iiif.io/api/image/2/context.json","@id":"{{ '/' | absolute_url }}img/derivatives/iiif/images/recipebook_021","protocol":"http://iiif.io/api/image","width":1758,"height":3179,"sizes":[{"width":1758,"height":3179},{"width":250,"height":452},{"width":90,"height":163},{"width":90,"height":163}],"profile":["http://iiif.io/api/image/2/level0.json",{"supports":["cors","sizeByWhListed","baseUriRedirect"]}],"tiles":[{"width":512,"scaleFactors":[1,2,4,8]}]}
