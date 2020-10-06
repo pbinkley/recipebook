@@ -5,3 +5,4 @@ _site
 Gemfile.lock
 package-lock.json
 *.sublime-workspace
+.byebug_history
