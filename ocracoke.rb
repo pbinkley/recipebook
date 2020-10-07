@@ -136,7 +136,7 @@ manifest_path = "./img/derivatives/iiif/recipebook/manifest.json"
 raw_yaml, raw_json = File.read(manifest_path).match(/(---\n.+?\n---\n)(.*)/m)[1..2]
 manifest = JSON.parse(raw_json)
 
-this_canvas = manifest['sequences'][0]['canvases'].find { |canvas| canvas['@id'] = "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_#{hocr_annotations.id}.json" }
+this_canvas = manifest['sequences'][0]['canvases'].find { |canvas| canvas['@id'] == "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_#{hocr_annotations.id}.json" }
 
 # TODO: don't assume there's only ever a single annotationlist
 
