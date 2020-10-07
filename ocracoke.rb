@@ -138,10 +138,14 @@ manifest = JSON.parse(raw_json)
 
 this_canvas = manifest['sequences'][0]['canvases'].find { |canvas| canvas['@id'] = "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_#{hocr_annotations.id}.json" }
 
-# TODO: test whether the AnnotationList link already exists
+# TODO: don't assume there's only ever a single annotationlist
 
-this_canvas['otherContent'] = [{"@id" => "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_#{hocr_annotations.id}_ocr_paragraphs.json", "@type" => "sc:AnnotationList"}]
+if this_canvas.dig('otherContent', 0, '@id') == "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_#{hocr_annotations.id}_ocr_paragraphs.json" 
+  puts "AnnotationList #{hocr_annotations.id} already linked in Manifest"
+else
+  this_canvas['otherContent'] = [{"@id" => "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_#{hocr_annotations.id}_ocr_paragraphs.json", "@type" => "sc:AnnotationList"}]
 
-File.open(manifest_path, 'w') { |f| f.write("#{raw_yaml}#{manifest.to_json}") }
+  File.open(manifest_path, 'w') { |f| f.write("#{raw_yaml}#{manifest.to_json}") }
+end
 
 puts 'done'
