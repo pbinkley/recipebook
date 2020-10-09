@@ -1,6 +1,9 @@
 require 'nokogiri'
 require 'addressable/template'
 require 'json'
+require 'yaml'
+require 'fileutils'
+
 require 'byebug'
 
 # borrowed from Okracoke: 
@@ -10,7 +13,6 @@ require 'byebug'
 # canvas_url_template: "http://scrc.lib.ncsu.edu/sal_staging/canvas/{id}"
 # ocracoke_base_url: "https://ocr-staging01.lib.ncsu.edu/ocr/"
 
-# TODO: pbinkley change these to fit Wax context
 CANVAS_URL_TEMPLATE = '{{ \'/\' | absolute_url }}img/derivatives/iiif/annotation/recipebook_{id}.json'
 OKRACOKE_BASE_URL = '{{ \'/\' | absolute_url }}/img/derivatives/iiif/annotation/recipebook_{id}/'
 
@@ -121,12 +123,29 @@ class HocrOpenAnnotationCreator
   def id
     @identifier
   end
+
+  def to_yaml
+    yaml_list = {
+      'id' => @identifier,
+      'label' => @identifier + '-annotation-list-' + @granularity,
+      'target' => manifest_canvas_id(@identifier),
+      'resources' => []
+    }
+    annotation_list[:resources].each do |resource|
+      yaml_list['resources'] << {
+        'xywh' => resource[:@id].sub(/.*\/(.*)/, '\1'),
+        'chars' => resource[:resource][:chars]
+      }
+    end
+    FileUtils.mkdir_p('./_data/annotations/recipebook')
+    File.open("./_data/annotations/recipebook/recipebook_#{@identifier}_ocr_paragraph.yaml", 'w') { |file| file.write(yaml_list.to_yaml) }
+  end
 end
 
-hocr_annotations = HocrOpenAnnotationCreator.new('./_data/raw_images/recipebook/recipebook/002.hocr', 'paragraph')
+hocr_annotations = HocrOpenAnnotationCreator.new('../hocr/002.hocr', 'paragraph')
 
 
-File.open("img/derivatives/iiif/annotation/recipebook_#{hocr_annotations.id}_ocr_paragraphs.json","w") do |f|
+File.open("img/derivatives/iiif/annotation/recipebook_#{hocr_annotations.id}_ocr_paragraph.json","w") do |f|
   f.write(hocr_annotations.to_json)
 end
 
@@ -140,12 +159,14 @@ this_canvas = manifest['sequences'][0]['canvases'].find { |canvas| canvas['@id']
 
 # TODO: don't assume there's only ever a single annotationlist
 
-if this_canvas.dig('otherContent', 0, '@id') == "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_#{hocr_annotations.id}_ocr_paragraphs.json" 
+if this_canvas.dig('otherContent', 0, '@id') == "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_#{hocr_annotations.id}_ocr_paragraph.json" 
   puts "AnnotationList #{hocr_annotations.id} already linked in Manifest"
 else
-  this_canvas['otherContent'] = [{"@id" => "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_#{hocr_annotations.id}_ocr_paragraphs.json", "@type" => "sc:AnnotationList"}]
+  this_canvas['otherContent'] = [{"@id" => "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_#{hocr_annotations.id}_ocr_paragraph.json", "@type" => "sc:AnnotationList"}]
 
   File.open(manifest_path, 'w') { |f| f.write("#{raw_yaml}#{manifest.to_json}") }
 end
+
+hocr_annotations.to_yaml
 
 puts 'done'

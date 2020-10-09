@@ -10,7 +10,7 @@ layout: none
     {
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/recipebook/manifest.json",
       "@type": "sc:Manifest",
-      "label": "Recipes collected for Mildred by William, from the Northumberland American and other newspapers and sources"
+      "label": "recipebook"
     }
   ]
 }
