@@ -1,0 +1,139 @@
+---
+layout: none
+collection: recipebook
+canvas: '002'
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_002_clippings.json",
+  "label":"recipebook_002_clippings",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:painting",
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "<p>Clipping 1</p>"
+        }
+      ],
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=25,57,734,488",
+      "@id": "9662b710-e8f3-43fd-a669-11c9a2b3e980"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:painting",
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "<p>Clipping 2</p>"
+        }
+      ],
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=29,562,741,686",
+      "@id": "82d717e6-f8e5-4734-ba40-8b4411bedb8a"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:painting",
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "<p>Clipping 3</p>"
+        }
+      ],
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=32,1261,747,699",
+      "@id": "6408f482-337e-4163-8c2b-64bb7c3b446c"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:painting",
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "<p>Clipping 4</p>"
+        }
+      ],
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=18,1968,757,1114",
+      "@id": "9cff18ea-278f-4a81-b614-c24a8f9e9fb6"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:painting",
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "<p>Clipping 5</p>"
+        }
+      ],
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=777,47,778,709",
+      "@id": "5ee02566-0705-48f2-a0a3-afdcfb41f0b2"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:painting",
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "<p>Clipping 6</p>"
+        }
+      ],
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=787,760,768,509",
+      "@id": "bfcb0551-1d17-4936-b795-6ec332aff1de"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:painting",
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "<p>Clipping 7</p>"
+        }
+      ],
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=759,1285,769,600",
+      "@id": "a0db8e4a-d1ef-44c0-8829-cf1ed011b7db"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:painting",
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "<p>Clipping 8</p>"
+        }
+      ],
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=742,1886,795,1044",
+      "@id": "a486256f-b2db-499e-890f-1c7e6e97cbd3"
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:painting",
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "<p>Clipping 9</p>"
+        }
+      ],
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=757,2914,800,249",
+      "@id": "cd8e40d5-2802-4497-b928-cf39139af7a1"
+    }
+  ]
+}
