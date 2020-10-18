@@ -18,11 +18,11 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Wax'
-description:      'Minimal Exhibitions with Jekyll'
-url:              'https://minicomp.github.io'
-baseurl:          '/wax'
-copyright:        'Example copyright org, 2019'
+title:            'Wax Demo, Binkley, Access 2020'
+description:      'A Recipe Book from 1859'
+url:              'https://pbinkley.github.io'
+baseurl:          '/recipebook'
+copyright:        ''
 logo:             '/assets/logo.png'
 
 # ---------------------------------------------------------------
