@@ -5,28 +5,13 @@ canvas: '002'
 label: recipebook_002_ocr_paragraph
 target: "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json"
 resources:
-- xywh: '244,50,1321,146'
-  chars: wkeh that . CREAM .B‘lSOiiIT.—_—‘Four tea-cripsi'ul = g ‘ eigntfa pound and
-    a cream, one teii-spooill‘iilol’ salaratuiqlissolv-
-- xywh: '14,151,1541,342'
-  chars: '11.: When (finite tender, Luke ed in a''cupful of milk. . Both ,1}; 1 k
-    and i 1 t e 1 eat in small strips, and pre- |'' ''eream should he sweet, or hot!
-    soi’r. Add l" , 15110“:ng 53110.0: ''Boil Your eggs one egg, it you choose. illix
-    soit as you 3 r ''xninntes, take them out-''of'' the shells,- _ can, and not molditmuch.
-    ''llakom aquick _ aall’ﬁna mix them with tire spoonfuls ol oven. - - » wn hut-tor,
-    twelve spooniuls 0.1 .wDCS‘“) mé lyaspoonful of _ mixed mustard, the same'
-- xywh: '107,477,10,7'
-  chars: ".."
-- xywh: '764,403,4,12'
-  chars: l
-- xywh: '848,417,679,47'
-  chars: RICE ”PUDDING, mm on Iwiruoer 1:“--
-- xywh: '14,463,1538,288'
-  chars: "._ , ems—One pint of'co‘oked' rice, one'pint of kill salt, a little pepper
-    and essence oi celQI'y. -- milk, one' tea-spoonf'ul/Df salt, and the yolks . '
-    ' ‘ ’ ofl'our eggs. Bake tilldolne,’ then add the whites of the eggs, beaten to
-    a froth, with , four table-spoonst'ul of sugar. Bake again ﬁseniiinutes..-ﬁer1;e.ivith
-    liquidsaucc. _ ‘"
+- xywh: '25,57,734,488'
+  chars: '<p>CHICKEN SALAD -- Boil a chicken that does not exceed in weight a pound and a pound and a half. When quite tender, take it up, cut the meat in small strips, and prepare the following sauce: Boil four eggs three minutes, take them out of the shells, wash and mix them with two spoonfuls of drawn butter, twelve spoonfuls of vinegar, one teaspoonful of mixed mustard, the same of salt, a little pepper and essence of celery.</p>'
+  comment: Clipping 1
+- xywh: '777,47,778,709'
+  chars: '<p>CREAM BISCUIT -- Four tea-cupsful of cream, one tea-spoonful of salaratus, dissolved in a cupful of milk. Both milk and cream should be sweet, or both sour. Add one egg, if you choose. Mix soft as you can, and not mold it much. Bake in a quick oven.</p>
+    <p>RICE PUDDING, WITH OR WITHOUT RAISINS. -- One pint of cooked rice, one pint of milk, one tea-spoonful of salt, and the youlds of four eggs. Bake till done; then add the whites of the eggs, beaten to a froth, with four table-spoonsful of sugar. Bake again five minutes. Serve with liquid sauce.</p>'
+  comment: Clipping 5
 - xywh: '95,544,679,192'
   chars: 'RS «u, roe CHAI’I’ED HANDS.fTakQ one! jellow soap ; cut it: up small ; add
     to ; $2111 of a''beef''; put it over the the'
