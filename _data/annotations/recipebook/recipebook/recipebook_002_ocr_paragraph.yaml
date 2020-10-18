@@ -1,6 +1,8 @@
 ---
+uri: "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/recipebook_002_ocr_paragraph.json"
+collection: recipebook
 id: '002'
-label: 002-annotation-list-paragraph
+label: recipebook_002-ocr-paragraph
 target: "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json"
 resources:
 - xywh: '244,50,1321,146'
