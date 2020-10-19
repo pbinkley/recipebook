@@ -1,0 +1,46 @@
+  <div class='item-view'>
+    <div id="osd" class="image-viewer"></div>
+<script async defer src="{{ '/assets/openseadragon/openseadragon.min.js' | absolute_url }}"></script>
+
+<script>
+  $(document).ready(function () {
+    var manifestUrl = "{{ include.manifest | absolute_url }}";
+    var canvasUrl = "{{ include.canvas | absolute_url }}"
+
+    function findCanvas(canvas) {
+      return canvas['images'][0]['@id'] == canvasUrl;
+    }
+
+    $.getJSON(manifestUrl, function(data) {
+      var image = data['sequences'][0]['canvases'].find(findCanvas);
+      var width = image['width'];
+      var height = image['height'];
+      var aspectRatio = height/width;
+
+      var xywh = '{{ include.xywh}}'.split(',').map(x => parseInt(x));
+      var x = xywh[0] / width;
+      var y = xywh[1] / height * aspectRatio;
+      var w = xywh[2] / width;
+      var h = xywh[3] / height * aspectRatio;
+      var box = new OpenSeadragon.Rect(x, y, w, h);
+      
+      var infoUrl = image['images'][0]['resource']['service']['@id'] + '/info.json'
+      var tileSources = [infoUrl];
+      var viewer = OpenSeadragon({
+        id: "osd",
+        prefixUrl: "{{ '/assets/openseadragon/images/' | absolute_url }}",
+        sequenceMode: true,
+        tileSources: tileSources,
+        homeFillsViewer: false,
+        showReferenceStrip: false
+      });
+
+      viewer.addHandler('open', function() {
+        viewer.viewport.fitBounds(box, true)
+      });
+
+    });
+  });
+</script>
+
+  </div>

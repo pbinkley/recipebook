@@ -39,6 +39,9 @@ exclude:
   - vendor
   - spec
   - README.md
+  - recipebook.sublime-project
+  - recipebook.sublime-workspace
+  - wax_theme.gemspec
 webrick:
   headers:
     'Access-Control-Allow-Origin': '*'
@@ -51,6 +54,8 @@ kramdown:
  smart_quotes:   lsquo,rsquo,ldquo,rdquo
  enable_coderay: false
 
+plugins:
+  - octopress-debugger
 
 # --------------------------------------------------------------
 # COLLECTION SETTINGS

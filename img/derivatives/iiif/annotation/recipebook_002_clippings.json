@@ -17,7 +17,7 @@ canvas: '002'
         {
           "@type": "dctypes:Text",
           "format": "text/html",
-          "chars": "<h3>Clipping 1</h3><p><em>Sunburgy Gazette</em>, 12 Feb. 1859</p><p>Chicken Salad</p>"
+          "chars": "<h3><a href='{{ '/' | absolute_url }}pages/clipping-1/'>Clipping 1 bork</a></h3><p><em>Sunbury Gazette</em>, 12 Feb. 1859</p><p>Chicken Salad</p>"
         }
       ],
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=25,57,734,488",
@@ -31,7 +31,7 @@ canvas: '002'
         {
           "@type": "dctypes:Text",
           "format": "text/html",
-          "chars": "<h3>Clipping 2</h3><p><em>Sunburgy Gazette</em>, 5 Feb. 1859</p><p>Soap for Chapped Hands</p>"
+          "chars": "<h3>Clipping 2</h3><p><em>Sunbury Gazette</em>, 5 Feb. 1859</p><p>Soap for Chapped Hands</p>"
         }
       ],
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=29,562,741,686",
@@ -45,7 +45,7 @@ canvas: '002'
         {
           "@type": "dctypes:Text",
           "format": "text/html",
-          "chars": "<h3>Clipping 3</h3><p>Not found in <em>Sunburgy Gazette</em>, but versions in other newspapers.</p><p>An Excellent Imitation of Apple Pie; Another</p>"
+          "chars": "<h3>Clipping 3</h3><p>Not found in <em>Sunbury Gazette</em>, but versions in other newspapers.</p><p>An Excellent Imitation of Apple Pie; Another</p>"
         }
       ],
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=32,1261,747,699",
@@ -59,7 +59,7 @@ canvas: '002'
         {
           "@type": "dctypes:Text",
           "format": "text/html",
-          "chars": "<h3>Clipping 4</h3><p><em>Sunburgy Gazette</em>, 6 Nov. 1858</p><p>Green Apple Pie; Yeast Dumplings</p>"
+          "chars": "<h3>Clipping 4</h3><p><em>Sunbury Gazette</em>, 6 Nov. 1858</p><p>Green Apple Pie; Yeast Dumplings</p>"
         }
       ],
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=18,1968,757,1114",
@@ -73,7 +73,7 @@ canvas: '002'
         {
           "@type": "dctypes:Text",
           "format": "text/html",
-          "chars": "<h3>Clipping 5</h3><p><em>Sunburgy Gazette</em>, 19 Feb. 1859</p><p>Cream Biscuit / Rice Pudding With or Without Raisins</p>"
+          "chars": "<h3>Clipping 5</h3><p><em>Sunbury Gazette</em>, 19 Feb. 1859</p><p>Cream Biscuit / Rice Pudding With or Without Raisins</p>"
         }
       ],
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=777,47,778,709",
@@ -87,7 +87,7 @@ canvas: '002'
         {
           "@type": "dctypes:Text",
           "format": "text/html",
-          "chars": "<h3>Clipping 6</h3><p><em>Sunburgy Gazette</em>, 19 Feb. 1859</p><p>An Excellent Common Fried Cake; Doughtnuts without Yeast</p>"
+          "chars": "<h3>Clipping 6</h3><p><em>Sunbury Gazette</em>, 19 Feb. 1859</p><p>An Excellent Common Fried Cake; Doughtnuts without Yeast</p>"
         }
       ],
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=787,760,768,509",
@@ -101,7 +101,7 @@ canvas: '002'
         {
           "@type": "dctypes:Text",
           "format": "text/html",
-          "chars": "<h3>Clipping 7</h3><p><em>Sunburgy Gazette</em>, 5 March 1859</p><p>Goose Boiled with Onion Sauce</p>"
+          "chars": "<h3>Clipping 7</h3><p><em>Sunbury Gazette</em>, 5 March 1859</p><p>Goose Boiled with Onion Sauce</p>"
         }
       ],
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=759,1285,769,600",
@@ -115,7 +115,7 @@ canvas: '002'
         {
           "@type": "dctypes:Text",
           "format": "text/html",
-          "chars": "<h3>Clipping 8</h3><p><em>Sunburgy Gazette</em>, 9 Apr. 1859</p><p>Boied Custard; Ecellent Liniment</p>"
+          "chars": "<h3>Clipping 8</h3><p><em>Sunbury Gazette</em>, 9 Apr. 1859</p><p>Boiled Custard; Excellent Liniment</p>"
         }
       ],
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=742,1886,795,1044",
@@ -129,7 +129,7 @@ canvas: '002'
         {
           "@type": "dctypes:Text",
           "format": "text/html",
-          "chars": "<h3>Clipping 9</h3><p>Not found in <em>Sunburgy Gazette</em>, but versions in other newspapers.</p><p>Apple Custard</p>"
+          "chars": "<h3>Clipping 9</h3><p>Not found in <em>Sunbury Gazette</em>, but versions in other newspapers.</p><p>Apple Custard</p>"
         }
       ],
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=757,2914,800,249",

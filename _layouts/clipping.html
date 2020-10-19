@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% for clipping in site.data.annotations-kludge.recipebook_002_clippings.clippings %}
+  {% if clipping.title == page.title %}
+
+    {% if clipping.recipe %}
+      {% for thing in site.data.annotations-kludge %}
+        {% if thing[0] == clipping.recipe %}
+          <script type="application/ld+json">
+            {{ thing[1] | jsonify }}
+          </script>
+        {% endif %}
+      {% endfor %}
+
+    {% endif %}
+
+    <h3>{{ clipping.title}}</h3>
+    <p>Contents: {{ clipping.contents }}<p>
+    <p>{{ clipping.text }}</p>
+    <p>Source(s):</p>
+    <ul>
+      {% for source in clipping.source %}
+        <li><a href="{{ source.link }}"><em>{{ source.title }}</em> {{ source.date }}</a>
+        {% if source.direct %}(direct source of clipping){% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+
+    {% include osd_iiif_image_viewer_canvas.html manifest=page.manifest canvas=page.canvas xywh=clipping.xywh %}
+
+  {% endif %}
+{% endfor %}
+
+{{ content }}
