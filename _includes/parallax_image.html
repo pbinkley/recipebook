@@ -13,7 +13,7 @@
   height: {{ include.height }} !important;
   {% endif %}
 {%- endcapture -%}
-
+<pre>{{ item.full }}</pre>
 <div class='wax-parallax full-width {% if page.banner %}top-banner{% else %}inline-parallax{% endif %}'>
   <div class='parallax-image' style="{{ style | strip }}"></div>
 
