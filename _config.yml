@@ -23,7 +23,7 @@ description:      'A Recipe Book from 1859'
 url:              'https://pbinkley.github.io'
 baseurl:          '/recipebook'
 copyright:        ''
-logo:             '/assets/logo.png'
+logo:             '/img/Goat-25.webp'
 
 # ---------------------------------------------------------------
 # BUILD SETTINGS
@@ -144,6 +144,6 @@ footer:
     - label: 'Contact'
       link: 'https://gitter.im/minicomp/wax/'
   logos:
-    - img: '/img/logo.png'
+    - img: '/img/Goat-25.webp'
 
 # FIN
