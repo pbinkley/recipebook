@@ -101,7 +101,7 @@ canvas: '002'
         {
           "@type": "dctypes:Text",
           "format": "text/html",
-          "chars": "<h3>Clipping 7</h3><p><em>Sunbury Gazette</em>, 5 March 1859</p><p>Goose Boiled with Onion Sauce</p>"
+          "chars": "<h3><a href='{{ '/' | absolute_url }}pages/clipping-7/'>Clipping 7</a></h3><p><em>Sunbury Gazette</em>, 5 March 1859</p><p>Goose Boiled with Onion Sauce</p>"
         }
       ],
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=759,1285,769,600",

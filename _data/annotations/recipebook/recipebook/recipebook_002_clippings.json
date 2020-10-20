@@ -17,7 +17,7 @@ canvas: '002'
         {
           "@type": "dctypes:Text",
           "format": "text/html",
-          "chars": "<h3><a href='{{ '/' | absolute_url }}pages/clipping-1/'>Clipping 1 bork</a></h3><p><em>Sunbury Gazette</em>, 12 Feb. 1859</p><p>Chicken Salad</p>"
+          "chars": "<h3><a href='{{ '/' | absolute_url }}pages/clipping-1/'>Clipping 1</a></h3><p><em>Sunbury Gazette</em>, 12 Feb. 1859</p><p>Chicken Salad</p>"
         }
       ],
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/recipebook_002.json#xywh=25,57,734,488",
