@@ -77,7 +77,7 @@ collections:
     images:
       source: 'raw_images/recipebook' # path to the directory of images within `_data`
     annotations:
-      source: 'annotations/recipebook' # path to the directory of annotations within `_data`
+      source: 'annotations' # path to the directory of annotations within `_data`
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
