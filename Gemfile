@@ -4,8 +4,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'byebug'
-#gem 'wax_tasks', github: 'pbinkley/wax_tasks', branch: 'working'
-gem 'wax_tasks', path: '../wax_tasks'
+gem 'wax_tasks', git: 'https://github.com/pbinkley/wax_tasks', branch: 'annotationlists'
 
 # gem 'wax_iiif', path: '/home/pbinkley/Projects/wax/wax_iiif-pbinkley-fork'
 gem 'nokogiri'

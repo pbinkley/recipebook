@@ -1,0 +1,19 @@
+<div class="item-view">
+  <div id="mirador" class="osd"></div>
+</div>
+<script type='text/javascript' src='https://unpkg.com/mirador@3.0.0/dist/mirador.min.js'></script>
+<script type="text/javascript">
+ var miradorInstance = Mirador.viewer({
+   id: 'mirador',
+   theme: {
+     transitions: window.location.port === '4488' ?  { create: () => 'none' } : {},
+   },
+   windows: [{
+     manifestId: '{{ '/' | absolute_url }}img/derivatives/iiif/recipebook/manifest.json',
+     view: 'gallery',
+   }],
+   catalog: [
+     { manifestId: '{{ '/' | absolute_url }}img/derivatives/iiif/recipebook/manifest.json' },
+   ]
+ });
+</script>

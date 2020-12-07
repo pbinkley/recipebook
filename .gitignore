@@ -6,3 +6,4 @@ Gemfile.lock
 package-lock.json
 *.sublime-workspace
 .byebug_history
+.jekyll-cache
